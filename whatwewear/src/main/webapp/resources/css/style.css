@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+.msg_warn {
+	color: rgba(255,0,0,1.0);
+	font-size: 0.8em;
+}

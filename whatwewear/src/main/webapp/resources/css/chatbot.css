@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+#cl-dashboard {
+	visibility: collapse;
+}
+
+* {
+	font-family: "나눔고딕";	
+}
+
+html,body {
+	margin: 0; 
+	padding: 0;
+	height:100%;
+	background-color: #e6ebea;
+}
+
+/* 헤더에 icon */
+#comments {	
+	font-size: 35px;
+}
+
+#header {
+	position: fixed;
+	height: 60px;
+	background-color: #1dcc51;
+	color: #FFFFFF;
+	font-size: 26px;
+	text-align: left;
+	padding: 10px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	z-index: 1;
+}
+
+#said {
+	font-size: 20px;
+	padding-top: 70px;
+	padding-bottom:50px;
+	margin:0 auto;
+}
+
+#footer {
+	position: fixed;
+    height:50px;
+    width: 100%;
+    bottom: 0;
+}
+
+#txt_isay {
+	height: 50px;
+	font-size: 20px;
+}
+
+#btn_isay {
+	height: 50px;
+	font-size: 20px;
+}
+
+.wbubble {
+	position: relative;
+	max-width: 60%;
+	padding: 5px;
+	background: #FFFFFF;
+	color: #000000;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.ibubble {
+	position: relative;
+	max-width: 60%;
+	padding: 5px;
+	background: #FFFFFF;
+	color: #000000;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: left !important;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: 3%;
+}
+
+/* watsonsay icon */
+#icon {
+	max-width: 35px;
+	margin-right: 1%;
+	margin-left: 2%;
+}
+
+/* watsonsay icon - hidden */
+#hiddenicon {
+	max-width: 35px;
+	margin-left: 3%;
+	visibility: hidden;
+}
+
+/* #wrapper {
+ 	min-height: calc(96vh - 40px);
+ 	min-height:100%;
+ 	background-color: #e6ebea;
+ 	margin-bottom: 50px;
+} */
